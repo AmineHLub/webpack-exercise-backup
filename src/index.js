@@ -1,11 +1,12 @@
 import _ from 'lodash';
 import './style.css'
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-    return element;
-  }
+//function component() {
+  //  const element = document.createElement('div');
+    //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    //element.classList.add('hello');
+    //return element;
+  //}
   
-  document.body.appendChild(component());
-  index.html
+  //document.body.appendChild(component());
+  //index.html
+  
