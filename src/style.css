@@ -1,7 +1,51 @@
-.hello {
-    color: red;
-  }
+.d-flex {
+  display: flex;
+}
 
-  body {
-    background-color: bisque;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.todo-header,
+.list-input,
+.todo-list-activities > ul > li {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  flex-flow: column wrap;
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  box-shadow: 1px 3px 13px -3px rgba(0,0,0,0.75);
+  border-radius: 8px;
+}
+
+.todo-header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items {
+  width: 89%;
+  height: 2.5rem;
+  border: none;
 }

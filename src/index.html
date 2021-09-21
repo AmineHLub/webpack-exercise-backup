@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>ToDO List</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <main>
+        <div class="todo-list d-flex">
+            <section class="todo-header d-flex">
+                <h2>Today's To Do</h2>
+                <a><img class="todo-reload" src="" alt="reload-icon"></a>
+            </section>
+            <section class="list-input">
+            <input type="text">
+            </section>
+            <section class="todo-list-activities">
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <input class="list-items" type="text" value="template-act 1">
+                        <a class="list-menu" href="#"><img src="" alt="list-menu"></a>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input class="list-items" type="text" value="template-act 1">
+                        <a class="list-menu" href="#"><img src="" alt="list-menu"></a>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input class="list-items" type="text" value="template-act 1">
+                        <a class="list-menu" href="#"><img src="" alt="list-menu"></a>
+                    </li>
+                </ul>
+            </section>
+            <section class="clear-button">
+                <button>clear all</button>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
