@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -15,7 +21,7 @@ a {
 .todo-header,
 .list-input,
 .todo-list-activities > ul > li {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(156 156 156);
   height: 4.5rem;
     display: flex;
     justify-content: space-between;
@@ -28,13 +34,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(59, 59, 59);
 }
 
 .todo-list {
   flex-flow: column nowrap;
   width: 70%;
   height: 70%;
-  background-color: white;
   box-shadow: 1px 3px 13px -3px rgba(0,0,0,0.75);
   border-radius: 8px;
 }
@@ -45,10 +51,14 @@ main {
   padding: 0 1%;
 }
 
-.list-items {
-  width: 89%;
-  height: 2.5rem;
-  border: none;
+.todo-header > h2 {
+  font-size: 2rem;
+  color: rgb(70, 70, 70);
+}
+
+.todo-reload {
+  width: 50%;
+  padding-left: 45%;
 }
 
 .list-input > input {
@@ -56,12 +66,35 @@ main {
   height: 80%;
   border: none;
   margin: 1%;
-  padding: 0 1% 0 1%;
+  padding: 0 2% 0 1%;
+  font-size: 1.3rem;
+  font-weight: 600;
   font-style: italic;
 }
 
 .todo-list-activities > ul > li {
   padding: 0 1%;
+}
+
+.checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+
+.list-items {
+  width: 89%;
+  height: 2.5rem;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+}
+
+.list-menu > img {
+  width: 70%;
 }
 
 .clear-button {
@@ -72,8 +105,16 @@ main {
 .clear-button > button {
   width: 100%;
   height: 6rem;
+  font-size: 2rem;
+  color: rgb(39, 39, 39);
   border: none;
   border-radius: 0 0 8px 8px;
   padding: 0;
-  background-color: rgba(224, 224, 224, 0.897);
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+}
+
+.noborder-input:focus
+ {
+  outline: none;
 }
