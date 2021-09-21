@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
 *{
   font-family: 'Source Sans Pro', sans-serif;
@@ -119,12 +118,3 @@ main {
  {
   outline: none;
 }
-=======
-.hello {
-  color: red;
-}
-
-body {
-  background-color: bisque;
-}
->>>>>>> 708b55171cb828c6b34bc9ab45f3fa041901bd2c
