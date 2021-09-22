@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import _ from 'lodash';
 import './style.css';
 // function component() {
