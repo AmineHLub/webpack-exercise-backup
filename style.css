@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
-*{
+
+* {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 1.3px;
 }
@@ -23,9 +24,9 @@ a {
 .todo-list-activities > ul > li {
   border-bottom: 1px solid rgb(156 156 156);
   height: 4.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
@@ -41,7 +42,7 @@ main {
   flex-flow: column nowrap;
   width: 70%;
   height: 70%;
-  box-shadow: 1px 3px 13px -3px rgba(0,0,0,0.75);
+  box-shadow: 1px 3px 13px -3px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 }
 
@@ -83,7 +84,6 @@ main {
   cursor: pointer;
 }
 
-
 .list-items {
   width: 89%;
   height: 2.5rem;
@@ -114,7 +114,6 @@ main {
   background-color: rgb(221, 221, 221);
 }
 
-.noborder-input:focus
- {
+.noborder-input:focus {
   outline: none;
 }
